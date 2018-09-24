@@ -7,7 +7,7 @@
  - [リスト3.1.2.4：アクションへ独立させた例](app/Http/Actions/UserIndexAction.php)
  - [リスト3.1.2.6：レスポンダの実装](app/Http/Responder/UserResponder.php)
  - [リスト3.2.3.3：コントローラクラスからデータベース操作を分離](app/Http/Controllers/Layered/UserController.php)
- - [リスト3.2.3.4：ポジトリのインターフェースを定義](app/Repository/UserRepositoryInterface.php)
+ - [リスト3.2.3.4：リポジトリのインターフェースを定義](app/Repository/UserRepositoryInterface.php)
  - [リスト3.2.3.5：リポジトリの実装例](app/Repository/UserRepository.php)
  - [リスト3.2.3.6：サービスクラスとリポジトリ利用例 | リスト3.2.3.2：データベース操作を伴う実装をサービスクラスとして分離](app/Service/UserPurchaseService.php)
  
