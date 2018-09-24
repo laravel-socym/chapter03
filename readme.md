@@ -19,19 +19,18 @@
 ```bash
 $ docker-compose up -d
 $ docker-compose run composer install --prefer-dist --no-interaction && composer app-setup
-$ docker-compose exec php-fpm php artisan key:generate
 $ docker-compose exec php-fpm php artisan migrate
 $ docker-compose exec php-fpm php artisan db:seed
 ```
 
-### remove
+### down
 
 ```bash
-$ docker kill $(docker ps -q)
+$ docker-compose down
 ```
 
-### For mysql container
+### コンテナのキャッシュが残っている場合
 
 ```bash
-$ docker-compose exec mysql bash
+$ docker-compose build --no-cache
 ```
